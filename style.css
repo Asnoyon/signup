@@ -52,5 +52,72 @@ body {
   background-color: #fff;
   height: 100%;
   border-radius: 1.563rem;
-  box-shadow: 0rem 0.625rem 2.5rem -0.625rem rgba(0, 0, 0. 0.7);
+  box-shadow: 0rem 0.625rem 2.5rem -0.625rem rgba(0, 0, 0 0.7);
+}
+.myRightCtn header {
+  color: #fff;
+  font-size: 2.75rem;
+}
+.box {
+  position: relative;
+  margin: 1.25rem;
+  margin-bottom: 6.25rem;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.myLeftCtn .myInput {
+  width: 14.37rem;
+  border-radius: 1.563rem;
+  padding: 0.625rem;
+  padding-left: 3.125rem;
+  border: none;
+  box-shadow: 0rem 0.625rem 3rem -0.875rem rgba(0, 0, 0, 0.7);
+}
+.myForm {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.myLeftCtn .butt {
+  background: linear-gradient(45deg, #9b00e8, #240235);
+  color: #fff;
+  width: 14.375rem;
+  border: none;
+  border-radius: 1.725rem;
+  padding: 0.625rem;
+  box-shadow: 0rem 0.625rem 1.25rem -0.625rem rgba(0, 0, 0, 0.7);
+  margin-top: 0.625rem;
+}
+
+.myLeftCtn .butt:hover {
+  background: linear-gradient(45deg, #b726ff, #240235);
+}
+
+.myLeftCtn .butt:focus {
+  outline: none;
+}
+
+.myLeftCtn .fa-solid {
+  position: relative;
+  color: #b726ff;
+
+  left: 2.2rem;
+}
+
+.butt_out {
+  background: transparent;
+  color: #fff;
+  width: 7.5rem;
+  border-radius: 1.725rem;
+  padding: 0.625rem;
+   box-shadow: 0rem 0.625rem 1.25rem -0.625rem rgba(0, 0, 0, 0.7);
+
+}
+.butt_out:hover {
+  border: 2px solid #eecbff;
+}
+.butt_out:focus{
+  outline: none;
 }
