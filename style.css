@@ -18,7 +18,7 @@ body {
 
 .myRightCtn {
   position: relative;
-  background-image: linear-gradient(45deg, #9b00e8, #240235);
+  background-image: linear-gradient(45deg, #69BAFA,#12222e);
   border-radius: 1.563rem;
   height: 100%;
   padding: 1.563rem;
@@ -38,7 +38,7 @@ body {
   padding-left: 3.125rem;
 }
 .myLeftCtn header {
-  color: blueviolet;
+  color: #69BAFA;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
@@ -81,7 +81,7 @@ body {
 }
 
 .myLeftCtn .butt {
-  background: linear-gradient(45deg, #9b00e8, #240235);
+  background: linear-gradient(45deg, #69BAFA,#12222e);
   color: #fff;
   width: 14.375rem;
   border: none;
@@ -92,7 +92,7 @@ body {
 }
 
 .myLeftCtn .butt:hover {
-  background: linear-gradient(45deg, #b726ff, #240235);
+  background: linear-gradient(45deg,#69BAFA,#12222e);
 }
 
 .myLeftCtn .butt:focus {
@@ -101,10 +101,12 @@ body {
 
 .myLeftCtn .fa-solid {
   position: relative;
-  color: #b726ff;
+  color: #69BAFA;
 
   left: 2.2rem;
 }
+
+
 
 .butt_out {
   background: transparent;
